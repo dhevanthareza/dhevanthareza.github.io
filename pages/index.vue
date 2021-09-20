@@ -39,9 +39,15 @@
               >
                 see my portfolio
               </button>
-              <button data-aos="fade-left" class="bordered-button">
-                download my resume
-              </button>
+              <form action="/resume_dhevan.pdf">
+                <button
+                  type="submit"
+                  data-aos="fade-left"
+                  class="bordered-button"
+                >
+                  download my resume
+                </button>
+              </form>
             </v-row>
             <v-col class="d-sm-none">
               <button class="rounded-button bg-primary mr-5 mb-3">
